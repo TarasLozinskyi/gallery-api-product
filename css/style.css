@@ -74,3 +74,19 @@ body {
 
 
 }
+@media(max-width: 1000px){
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 50px 0;
+    }
+}
+@media(max-width: 600px){
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 50px 0;
+    }
+}
