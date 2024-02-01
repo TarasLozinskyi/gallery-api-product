@@ -48,11 +48,16 @@ body {
 .gallery h2 {
     text-transform: uppercase;
     padding: 20px 0 20px 0;
+    height: 120px;
 }
 
 .gallery p {
     font-size: 16px;
-    /*visibility: hidden;*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Кількість рядків, які ви хочете показати */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
